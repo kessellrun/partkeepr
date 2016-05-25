@@ -1,0 +1,26 @@
+{
+    "name": "reputation-vip/composer-assets-installer",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Alban Pommeret",
+            "email": "ap@reputationvip.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "~1.0",
+        "symfony/filesystem": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.x-dev",
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReputationVIP\\Composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "ReputationVIP\\Composer\\AssetsInstallerPlugin"
+    }
+}

@@ -1,0 +1,23 @@
+# inherits configuration from ../App/config.yml
+
+framework:
+    profiler:
+        enabled: true
+        collect: true
+
+# Define all the available parameters in this Bundle
+liip_functional_test:
+    cache_sqlite_db: true
+    command_verbosity: "very_verbose"
+    command_decoration: false
+    query:
+        max_query_count: 1
+    authentication:
+        username: "foobar"
+        password: "12341234"
+    html5validation:
+        url: http://example.com/
+        ignores: ['ignore_1', 'ignore_2']
+        ignores_extract:
+            - 'ignore_extract_1'
+            - 'ignore_extract_2'

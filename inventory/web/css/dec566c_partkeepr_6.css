@@ -1,0 +1,80 @@
+
+.partkeepr-icon {
+    background: url(../spritesheets/./partkeepr.png?6bfc37e913f6e6960c8e) no-repeat;
+}
+
+.footprint_add {
+    width: 16px;
+    height: 16px;
+    background-position: -0px -0px;
+}
+.footprint_delete {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -0px;
+}
+.group-collapse {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -0px;
+}
+.group-expand {
+    width: 16px;
+    height: 16px;
+    background-position: -48px -0px;
+}
+.mediawiki_icon {
+    width: 16px;
+    height: 16px;
+    background-position: -0px -16px;
+}
+.stock_any {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -16px;
+}
+.stock_below {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -16px;
+}
+.stock_nonzero {
+    width: 16px;
+    height: 16px;
+    background-position: -48px -16px;
+}
+.stock_zero {
+    width: 16px;
+    height: 16px;
+    background-position: -0px -32px;
+}
+.storagelocation_multiadd {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -32px;
+}
+.tip_next {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -32px;
+}
+.tip_previous {
+    width: 16px;
+    height: 16px;
+    background-position: -48px -32px;
+}
+.unit {
+    width: 16px;
+    height: 16px;
+    background-position: -0px -48px;
+}
+.unit_add {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -48px;
+}
+.unit_delete {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -48px;
+}

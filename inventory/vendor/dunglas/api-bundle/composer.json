@@ -1,0 +1,52 @@
+{
+  "name": "dunglas/api-bundle",
+  "type": "symfony-bundle",
+  "description": "JSON-LD / Hydra REST API for Symfony",
+  "keywords": ["REST", "API", "JSON", "JSON-LD", "Hydra"],
+  "homepage": "http://api-platform.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kévin Dunglas",
+      "email": "dunglas@gmail.com",
+      "homepage": "http://dunglas.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "symfony/serializer": "^2.7.2|~3.0",
+    "symfony/validator": "~2.5|~3.0",
+    "symfony/framework-bundle": "~2.6|~3.0",
+    "symfony/proxy-manager-bridge": "~2.3",
+    "ocramius/proxy-manager": "~1.0",
+    "doctrine/orm": "~2.2,>=2.2.3",
+    "doctrine/inflector": "~1.0",
+    "doctrine/doctrine-bundle": "~1.2",
+    "dunglas/php-property-info": "~0.2",
+    "phpdocumentor/reflection": "^1.0.7",
+    "willdurand/negotiation": "~1.4"
+  },
+  "require-dev": {
+    "friendsofsymfony/user-bundle": "~1.3",
+    "behat/behat": "~3.0",
+    "behat/symfony2-extension": "~2.0",
+    "behat/mink": "~1.5",
+    "behat/mink-extension": "~2.0",
+    "behat/mink-browserkit-driver": "~1.1",
+    "behatch/contexts": "dev-master",
+    "symfony/finder": "~2.3",
+    "symfony/security": "~2.7.2|~3.0",
+    "phpunit/phpunit": "~4.6"
+  },
+  "suggest": {
+    "friendsofsymfony/user-bundle": "To use the FOSUserBundle bridge."
+  },
+  "autoload": {
+    "psr-4": { "Dunglas\\ApiBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
